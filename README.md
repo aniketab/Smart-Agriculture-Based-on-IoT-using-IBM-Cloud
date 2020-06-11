@@ -5,4 +5,4 @@ This is a Application Development projec. A web Application is build using Node-
 
 A python code is written that can control the devices using web application. Before running te python code it is necessary to download ibmiot package that can connect our device can be able to run.
 
-Web Application Dashboard : https://node-red-aab.eu-gb.mybluemix.net/ui/
+
