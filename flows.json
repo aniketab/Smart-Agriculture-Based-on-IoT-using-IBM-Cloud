@@ -1,0 +1,1040 @@
+[
+    {
+        "id": "d33ce402.ebe118",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "50ed1dfb.069904",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "12fc2d7d.d657f3",
+        "type": "ibmiot",
+        "z": "",
+        "name": "",
+        "keepalive": "60",
+        "serverName": "",
+        "cleansession": true,
+        "appId": "",
+        "shared": false
+    },
+    {
+        "id": "1f4cb829.2fdee8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "IoT Smart Agriculture",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1b526abe.dadee5",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#050505",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 30,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "18e5f933.990b67",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "b06bd539.23d348",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "500944ab.a221ec",
+        "type": "ui_group",
+        "z": "",
+        "name": "Motor Control",
+        "tab": "1f4cb829.2fdee8",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": true
+    },
+    {
+        "id": "77ff9957.f2f0d8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Agricultural Field Conditions",
+        "tab": "1f4cb829.2fdee8",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": true
+    },
+    {
+        "id": "97487521.ab0808",
+        "type": "ui_group",
+        "z": "",
+        "name": "API Data",
+        "tab": "1f4cb829.2fdee8",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": true
+    },
+    {
+        "id": "be8ac5a9.cf2158",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Graphical Representation",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f6a3d8fe.e00aa8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Agricultural Field Conditions",
+        "tab": "be8ac5a9.cf2158",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": true
+    },
+    {
+        "id": "7e62365e.b7e6b8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Student Registration",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "716e956.00eed6c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Form",
+        "tab": "7e62365e.b7e6b8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f3beb59f.fec598",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Account",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ec195eb8.ff9f9",
+        "type": "ui_group",
+        "z": "",
+        "name": "Log in",
+        "tab": "f3beb59f.fec598",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "fbbe2c63.54c2d",
+        "type": "ibmiot in",
+        "z": "d33ce402.ebe118",
+        "authentication": "apiKey",
+        "apiKey": "12fc2d7d.d657f3",
+        "inputType": "evt",
+        "logicalInterface": "",
+        "ruleId": "",
+        "deviceId": "aab1234",
+        "applicationId": "",
+        "deviceType": "iot_device",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "IBM IoT",
+        "service": "registered",
+        "allDevices": "",
+        "allApplications": "",
+        "allDeviceTypes": "",
+        "allLogicalInterfaces": "",
+        "allEvents": true,
+        "allCommands": "",
+        "allFormats": "",
+        "qos": 0,
+        "x": 270,
+        "y": 180,
+        "wires": [
+            [
+                "3fe83eaa.a673c2",
+                "e8ea348f.65bf98",
+                "930bba88.80aa68",
+                "410d905.ed7c47"
+            ]
+        ]
+    },
+    {
+        "id": "3fe83eaa.a673c2",
+        "type": "function",
+        "z": "d33ce402.ebe118",
+        "name": "Soil Moisture",
+        "func": "msg.payload = msg.payload.d.objectTemp;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 490,
+        "y": 120,
+        "wires": [
+            [
+                "930bba88.80aa68",
+                "9bf37fd1.cb6f8",
+                "ad8d43f1.5526"
+            ]
+        ]
+    },
+    {
+        "id": "e8ea348f.65bf98",
+        "type": "function",
+        "z": "d33ce402.ebe118",
+        "name": "Humidity",
+        "func": "msg.payload = msg.payload.d.humidity\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 480,
+        "y": 260,
+        "wires": [
+            [
+                "930bba88.80aa68",
+                "406543ae.446e9c",
+                "834aa0c6.a71a5"
+            ]
+        ]
+    },
+    {
+        "id": "930bba88.80aa68",
+        "type": "debug",
+        "z": "d33ce402.ebe118",
+        "name": "IBM o/p",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 740,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "406543ae.446e9c",
+        "type": "ui_gauge",
+        "z": "d33ce402.ebe118",
+        "name": "",
+        "group": "77ff9957.f2f0d8",
+        "order": 6,
+        "width": "7",
+        "height": 4,
+        "gtype": "gage",
+        "title": "Humidity",
+        "label": "Percentage (%)",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 880,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9bf37fd1.cb6f8",
+        "type": "ui_gauge",
+        "z": "d33ce402.ebe118",
+        "name": "",
+        "group": "77ff9957.f2f0d8",
+        "order": 1,
+        "width": "7",
+        "height": 4,
+        "gtype": "gage",
+        "title": "Soil Moisture",
+        "label": "Percentage (%)",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 850,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "51728b2c.d6e214",
+        "type": "http request",
+        "z": "d33ce402.ebe118",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": false,
+        "url": "http://api.openweathermap.org/data/2.5/weather?q=Chinchwad,%20IN&appid=6aa2b89eb478ce7baebf384e671bfd15",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 450,
+        "y": 540,
+        "wires": [
+            [
+                "afde54dd.35e348",
+                "88cbada4.1d201",
+                "f6c7203b.d0d84"
+            ]
+        ]
+    },
+    {
+        "id": "a1faf18a.e900d",
+        "type": "inject",
+        "z": "d33ce402.ebe118",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 280,
+        "y": 540,
+        "wires": [
+            [
+                "51728b2c.d6e214"
+            ]
+        ]
+    },
+    {
+        "id": "7f538013.90cb6",
+        "type": "ibmiot out",
+        "z": "d33ce402.ebe118",
+        "authentication": "apiKey",
+        "apiKey": "12fc2d7d.d657f3",
+        "outputType": "cmd",
+        "deviceId": "aab12345",
+        "deviceType": "iot_device",
+        "eventCommandType": "data",
+        "format": "json",
+        "data": "data",
+        "qos": 0,
+        "name": "IBM IoT",
+        "service": "registered",
+        "x": 380,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "899e777.ef80688",
+        "type": "ui_button",
+        "z": "d33ce402.ebe118",
+        "name": "",
+        "group": "500944ab.a221ec",
+        "order": 2,
+        "width": "7",
+        "height": "1",
+        "passthru": false,
+        "label": "Motor ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"command\":\"motoron\"}",
+        "payloadType": "str",
+        "topic": "motoron",
+        "x": 100,
+        "y": 380,
+        "wires": [
+            [
+                "7f538013.90cb6"
+            ]
+        ]
+    },
+    {
+        "id": "7e106f75.01a2c",
+        "type": "ui_button",
+        "z": "d33ce402.ebe118",
+        "name": "",
+        "group": "500944ab.a221ec",
+        "order": 3,
+        "width": "7",
+        "height": "1",
+        "passthru": true,
+        "label": "Motor OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"command\":\"motoroff\"}",
+        "payloadType": "str",
+        "topic": "motoroff",
+        "x": 90,
+        "y": 440,
+        "wires": [
+            [
+                "7f538013.90cb6"
+            ]
+        ]
+    },
+    {
+        "id": "f6c7203b.d0d84",
+        "type": "debug",
+        "z": "d33ce402.ebe118",
+        "name": "API o/p",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 860,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "afde54dd.35e348",
+        "type": "function",
+        "z": "d33ce402.ebe118",
+        "name": "API-Humidity",
+        "func": "msg.payload=msg.payload.main.humidity;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 630,
+        "y": 500,
+        "wires": [
+            [
+                "f6c7203b.d0d84",
+                "5bc2b52b.8c063c"
+            ]
+        ]
+    },
+    {
+        "id": "88cbada4.1d201",
+        "type": "function",
+        "z": "d33ce402.ebe118",
+        "name": "API-Temperature",
+        "func": "msg.payload=msg.payload.main.temp;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 650,
+        "y": 580,
+        "wires": [
+            [
+                "f6c7203b.d0d84",
+                "73b11771.699d48"
+            ]
+        ]
+    },
+    {
+        "id": "410d905.ed7c47",
+        "type": "function",
+        "z": "d33ce402.ebe118",
+        "name": "Temperature",
+        "func": "msg.payload=msg.payload.d.temperature;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 490,
+        "y": 360,
+        "wires": [
+            [
+                "85584b4.89d59b8",
+                "930bba88.80aa68",
+                "75b916b7.880c68"
+            ]
+        ]
+    },
+    {
+        "id": "85584b4.89d59b8",
+        "type": "ui_gauge",
+        "z": "d33ce402.ebe118",
+        "name": "",
+        "group": "77ff9957.f2f0d8",
+        "order": 11,
+        "width": "7",
+        "height": 4,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "Degree Celcius",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 710,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "73b11771.699d48",
+        "type": "ui_text",
+        "z": "d33ce402.ebe118",
+        "group": "97487521.ab0808",
+        "order": 2,
+        "width": "7",
+        "height": "1",
+        "name": "",
+        "label": "Temperature",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 870,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "5bc2b52b.8c063c",
+        "type": "ui_text",
+        "z": "d33ce402.ebe118",
+        "group": "97487521.ab0808",
+        "order": 1,
+        "width": "7",
+        "height": "1",
+        "name": "",
+        "label": "Humidity",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 870,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "ad8d43f1.5526",
+        "type": "ui_chart",
+        "z": "d33ce402.ebe118",
+        "name": "",
+        "group": "f6a3d8fe.e00aa8",
+        "order": 0,
+        "width": "7",
+        "height": "5",
+        "label": "Soil Moisture",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "1",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 850,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "834aa0c6.a71a5",
+        "type": "ui_chart",
+        "z": "d33ce402.ebe118",
+        "name": "",
+        "group": "f6a3d8fe.e00aa8",
+        "order": 1,
+        "width": "7",
+        "height": "5",
+        "label": "Humidity",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "1",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 880,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "75b916b7.880c68",
+        "type": "ui_chart",
+        "z": "d33ce402.ebe118",
+        "name": "",
+        "group": "f6a3d8fe.e00aa8",
+        "order": 2,
+        "width": "7",
+        "height": "5",
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "1",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7644a671.9df228",
+        "type": "ui_form",
+        "z": "50ed1dfb.069904",
+        "name": "",
+        "label": "Student Data",
+        "group": "716e956.00eed6c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Enter Name",
+                "value": "name",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter email",
+                "value": "mail",
+                "type": "email",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter College",
+                "value": "cllg",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter Branch",
+                "value": "branch",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter Roll No.",
+                "value": "rollno",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter Phone No.",
+                "value": "phn",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter Password",
+                "value": "pwd",
+                "type": "password",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Year of Passing",
+                "value": "passyear",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "name": "",
+            "mail": "",
+            "cllg": "",
+            "branch": "",
+            "rollno": "",
+            "phn": "",
+            "pwd": "",
+            "passyear": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 167,
+        "y": 260,
+        "wires": [
+            [
+                "e9890281.32972",
+                "2d3c5cb1.52a214"
+            ]
+        ]
+    },
+    {
+        "id": "98c8fbf.bfe9608",
+        "type": "cloudant out",
+        "z": "50ed1dfb.069904",
+        "name": "",
+        "cloudant": "",
+        "database": "student_details",
+        "service": "node-red-aab-cloudant-1589137749815-86115",
+        "payonly": true,
+        "operation": "insert",
+        "x": 520,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "e9890281.32972",
+        "type": "function",
+        "z": "50ed1dfb.069904",
+        "name": "Student Data",
+        "func": "msg.payload = {\n    _id : msg.payload.mail,\n    Name : msg.payload.name,\n    College : msg.payload.cllg,\n    Branch : msg.payload.branch,\n    RollNumber : msg.payload.rollno,\n    PassingYear : msg.payload.passyear,\n    PhoneNumber : msg.payload.phn,\n    Email : msg.payload.mail,\n    Password : msg.payload.pwd\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 300,
+        "wires": [
+            [
+                "98c8fbf.bfe9608"
+            ]
+        ]
+    },
+    {
+        "id": "2d3c5cb1.52a214",
+        "type": "function",
+        "z": "50ed1dfb.069904",
+        "name": "Acknowledgement",
+        "func": "msg.payload = \"Hey! \"+ msg.payload.name + \", You have successfully registered.\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "a4d79799.fdfc18"
+            ]
+        ]
+    },
+    {
+        "id": "a4d79799.fdfc18",
+        "type": "ui_text",
+        "z": "50ed1dfb.069904",
+        "group": "716e956.00eed6c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "x": 570,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "78071564.7b903c",
+        "type": "ui_form",
+        "z": "50ed1dfb.069904",
+        "name": "",
+        "label": "Log In",
+        "group": "ec195eb8.ff9f9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Enter e-mail id",
+                "value": "mail",
+                "type": "email",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter Password",
+                "value": "pwd",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "mail": "",
+            "pwd": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 240,
+        "y": 460,
+        "wires": [
+            [
+                "3ef01c41.4059d4"
+            ]
+        ]
+    },
+    {
+        "id": "3ef01c41.4059d4",
+        "type": "function",
+        "z": "50ed1dfb.069904",
+        "name": "Global Setting",
+        "func": "global.set(\"mail\", msg.payload.mail)\nglobal.set(\"pwd\", msg.payload.pwd)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 340,
+        "y": 520,
+        "wires": [
+            [
+                "407b2dd0.63d0c4"
+            ]
+        ]
+    },
+    {
+        "id": "ba0f4e4.bf55bb",
+        "type": "cloudant in",
+        "z": "50ed1dfb.069904",
+        "name": "",
+        "cloudant": "",
+        "database": "student_details",
+        "service": "node-red-aab-cloudant-1589137749815-86115",
+        "search": "_id_",
+        "design": "",
+        "index": "",
+        "x": 600,
+        "y": 460,
+        "wires": [
+            [
+                "243dfb93.60aae4",
+                "14e53391.e83c8c"
+            ]
+        ]
+    },
+    {
+        "id": "407b2dd0.63d0c4",
+        "type": "function",
+        "z": "50ed1dfb.069904",
+        "name": "Validation",
+        "func": "var mail = global.get(\"mail\")\nmsg.payload = {\n    \"_id\" : mail,\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 460,
+        "y": 580,
+        "wires": [
+            [
+                "ba0f4e4.bf55bb"
+            ]
+        ]
+    },
+    {
+        "id": "243dfb93.60aae4",
+        "type": "debug",
+        "z": "50ed1dfb.069904",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 660,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "14e53391.e83c8c",
+        "type": "function",
+        "z": "50ed1dfb.069904",
+        "name": "Password",
+        "func": "var pwd = global.get(\"pwd\")\n\nif(msg.payload.Password == pwd)(\n    msg.payload = \"Login Successful\"\n)\nelse(\n    msg.payload = \"Login Failed, Password Incorrect\"\n)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 600,
+        "y": 640,
+        "wires": [
+            [
+                "9ff11421.d688d8"
+            ]
+        ]
+    },
+    {
+        "id": "9ff11421.d688d8",
+        "type": "ui_text",
+        "z": "50ed1dfb.069904",
+        "group": "ec195eb8.ff9f9",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 740,
+        "y": 640,
+        "wires": []
+    }
+]
